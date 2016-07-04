@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel='stylesheet' type='text/css' href='/static/css/square-gallery.min.css'>
+    <script type="text/javascript" src="/static/js/square-gallery.js"></script>
+
+	<script type="text/javascript">
+		var DOMReady = function(a,b,c){b=document,c='addEventListener';b[c]?b[c]('DOMContentLoaded',a):window.attachEvent('onload',a)}
+
+		DOMReady(function () {
+      debugger;
+			new SquareGallery({
+				container: 'my-images',
+        links: true
+			});
+		});
+	</script>
+  </head>
+  <body>
+    <div id="my-images">
+      <% images %>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "image-gal",
+  "version": "1.0.1",
+  "description": "Reads directory and outputs html to display images in that directory, works well with Square Photo Gallery to create visual catalogs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
